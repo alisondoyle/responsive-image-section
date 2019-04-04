@@ -37,7 +37,7 @@ p {
 
 }
 /* div {
-  padding: 2rem 1rem;
+padding: 2rem 1rem;
 } */
 
 body {
@@ -84,29 +84,32 @@ h1, p {
     font-size: 110%;
     line-height: 1.4;
   }
-  .content, .photo {
-    width: 50%;
+  .text {
+    vertical-align: bottom;
+    margin-right: 0;
+    width: 45%;
+    text-align: left;
+    display: inline-block;
   }
-  h1, p {
 
-    margin: 0 0 1.4rem;
-  }
 }
 
 @media only screen and (min-width: 60em) {
 
-.text {
-  vertical-align: middle;
-}
+  .text {
+    vertical-align: middle;
+  }
+
+  .img-flex {
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    max-width: 480px;
+  }
 
   html {
     font-size: 120%;
     line-height: 1.5;
     text-align: center;
-  }
-  h1, p {
-
-    margin: 0 0 1.5rem;
   }
 }
 
