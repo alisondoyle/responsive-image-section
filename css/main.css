@@ -21,7 +21,7 @@ html {
 .btn {
   background-color: #555;
   text-decoration: none;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   border-radius: 4px;
   display: inline-block;
   color: #fff;
@@ -53,6 +53,10 @@ section {
   flex-wrap: wrap;
 }
 
+div {
+  padding: 2rem 1rem;
+}
+
 h1, p {
 
   margin: 0 0 1.3rem;
@@ -61,6 +65,10 @@ h1, p {
 .text, .photo {
   padding: 1rem;
   text-align: left;
+}
+
+.btn:hover {
+  background-color: #000;
 }
 
 @media only screen and (min-width: 25em) {
